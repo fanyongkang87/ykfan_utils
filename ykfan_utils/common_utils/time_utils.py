@@ -2,6 +2,7 @@ import time
 import functools
 import numpy as np
 
+
 def time_compute(fun):
     @functools.wraps(fun)
     def wrapper(*args, **kwargs):
@@ -12,6 +13,7 @@ def time_compute(fun):
         return tmp
 
     return wrapper
+
 
 def time_avg_compute(fun):
     @functools.wraps(fun)

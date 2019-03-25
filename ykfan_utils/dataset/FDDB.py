@@ -16,11 +16,11 @@ def convert_ellipse_2_rectangle(data_lines):
         gt_bboxes.append([center_x-minor_axis_radius, center_y-major_axis_radius, 2*minor_axis_radius, 2*major_axis_radius])
     return np.array(gt_bboxes, dtype=np.int)
 
+
 class FDDB(DataSetRead):
     def __init__(self):
         super(FDDB, self).__init__()
         self.dataset_dir = '/home/xuhai/disk2/ykfan/data/FDDB'
-
 
     def _read_annotations(self, data_type, limit_count=-1):
         assert isinstance(data_type, int), 'data type should be int type.'
@@ -45,7 +45,6 @@ class FDDB(DataSetRead):
             index += bbox_len + 2
 
         return annotation_list
-
 
     def decode_annotation_val(self, annotation_val):
         full_path = '{}/{}.jpg'.format(annotation_val['img_dir'], annotation_val['file_name'])
@@ -103,7 +102,6 @@ class FDDB(DataSetRead):
         annotation_val['num_annotations_skipped'] = num_annotations_skipped
         annotation_val['verify_img'] = image
         return annotation_val
-
 
     def evaluate(self, detect_estimator, iou_threshold=0.3, verify_dir=None, limit_count=-1):
         annotation_list = self.read_annotations(range(1, 11), limit_count=limit_count)

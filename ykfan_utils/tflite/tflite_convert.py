@@ -1,7 +1,7 @@
 import tensorflow as tf
 import tensorflow.contrib.lite as lite
 from tensorflow.python.framework import graph_util
-from train_models.mtcnn_model_v3 import P_Net_V3, R_Net_V3
+# from train_models.mtcnn_model_v3 import P_Net_V3, R_Net_V3
 
 
 def net_freeze(net_factory, model_path, net_name, output_array, tflite_name):
@@ -13,21 +13,21 @@ def net_freeze(net_factory, model_path, net_name, output_array, tflite_name):
     with graph.as_default():
         # define tensor and op in graph(-1,1)
         image_op = tf.placeholder(tf.float32, (1, image_size, image_size, 3), name='input_image')
-        print image_op
+        print(image_op)
 
         cls_prob, bbox_pred, _ = net_factory(image_op, training=False)
         for op in tf.get_default_graph().get_operations():
-            print op.name
+            print(op.name)
 
         with tf.Session() as sess:
             saver = tf.train.Saver()
             # check whether the dictionary is valid
             model_dict = '/'.join(model_path.split('/')[:-1])
             ckpt = tf.train.get_checkpoint_state(model_dict)
-            print model_path
+            print(model_path)
             readstate = ckpt and ckpt.model_checkpoint_path
             assert readstate, "the params dictionary is not valid"
-            print "restore models' param"
+            print("restore models' param")
             saver.restore(sess, model_path)
 
 
@@ -74,6 +74,7 @@ rnet_path = '/Users/yongkangfan/Documents/DL/mtcnn_v3/data/MTCNN_model_v36/RNet_
 onet_path = '../../data/MTCNN_model_{}/ONet_landmark/ONet-30'.format(version)
 
 if __name__ == '__main__':
+    pass
     # [-1.1272619 - 0.23438178  0.56261474 - 0.03256138  0.79474616 - 0.07583803 0.6205427 - 0.22639471]
     # net_freeze(P_Net_V2, pnet_path, 'P_Net', ['P_Net/conv1/BiasAdd'], "p_net_0903.tflite")
 
@@ -81,6 +82,5 @@ if __name__ == '__main__':
     # net_freeze(P_Net_V2, pnet_path, 'P_Net', ['P_Net/PReLU1/add'], "p_net_0903.tflite")
 
 
-    net_freeze(P_Net_V3, pnet_path, 'P_Net', ['P_Net/conv5-1/conv2d/BiasAdd','P_Net/conv5-2/conv2d/BiasAdd'], "p_net_{}.pb".format(version))
-    net_freeze(R_Net_V3, rnet_path, 'R_Net', ['R_Net/conv5-1/conv2d/BiasAdd','R_Net/conv5-2/conv2d/BiasAdd','R_Net/conv5-3/conv2d/BiasAdd'], "r_net_{}.pb".format(version))
-
+    # net_freeze(P_Net_V3, pnet_path, 'P_Net', ['P_Net/conv5-1/conv2d/BiasAdd','P_Net/conv5-2/conv2d/BiasAdd'], "p_net_{}.pb".format(version))
+    # net_freeze(R_Net_V3, rnet_path, 'R_Net', ['R_Net/conv5-1/conv2d/BiasAdd','R_Net/conv5-2/conv2d/BiasAdd','R_Net/conv5-3/conv2d/BiasAdd'], "r_net_{}.pb".format(version))

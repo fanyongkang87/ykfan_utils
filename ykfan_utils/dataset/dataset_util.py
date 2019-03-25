@@ -2,6 +2,7 @@ import numpy as np
 import os
 import tensorflow as tf
 
+
 def IoU(box, boxes, iou_type='join'):
     """Compute IoU between detect box and gt boxes
 
@@ -69,45 +70,45 @@ def get_sub_path_image_name(root_dir, index):
 
 
 def int64_feature(value):
-  return tf.train.Feature(int64_list=tf.train.Int64List(value=[value]))
+    return tf.train.Feature(int64_list=tf.train.Int64List(value=[value]))
 
 
 def int64_list_feature(value):
-  return tf.train.Feature(int64_list=tf.train.Int64List(value=value))
+    return tf.train.Feature(int64_list=tf.train.Int64List(value=value))
 
 
 def bytes_feature(value):
-  return tf.train.Feature(bytes_list=tf.train.BytesList(value=[value]))
+    return tf.train.Feature(bytes_list=tf.train.BytesList(value=[value]))
 
 
 def bytes_list_feature(value):
-  return tf.train.Feature(bytes_list=tf.train.BytesList(value=value))
+    return tf.train.Feature(bytes_list=tf.train.BytesList(value=value))
 
 
 def float_list_feature(value):
-  return tf.train.Feature(float_list=tf.train.FloatList(value=value))
+    return tf.train.Feature(float_list=tf.train.FloatList(value=value))
 
 
 def open_sharded_output_tfrecords(exit_stack, base_path, num_shards):
-  """Opens all TFRecord shards for writing and adds them to an exit stack.
+    """Opens all TFRecord shards for writing and adds them to an exit stack.
 
-  Args:
-    exit_stack: A context2.ExitStack used to automatically closed the TFRecords
-      opened in this function.
-    base_path: The base path for all shards
-    num_shards: The number of shards
+    Args:
+        exit_stack: A context2.ExitStack used to automatically closed the TFRecords
+        opened in this function.
+        base_path: The base path for all shards
+        num_shards: The number of shards
 
-  Returns:
-    The list of opened TFRecords. Position k in the list corresponds to shard k.
-  """
-  tf_record_output_filenames = [
-      '{}/shard-{:04d}.tfrecords'.format(base_path, idx)
-      for idx in range(num_shards)
-  ]
+        Returns:
+        The list of opened TFRecords. Position k in the list corresponds to shard k.
+    """
+    tf_record_output_filenames = [
+        '{}/shard-{:04d}.tfrecords'.format(base_path, idx)
+        for idx in range(num_shards)
+    ]
 
-  tfrecords = [
-      exit_stack.enter_context(tf.python_io.TFRecordWriter(file_name))
-      for file_name in tf_record_output_filenames
-  ]
+    tfrecords = [
+        exit_stack.enter_context(tf.python_io.TFRecordWriter(file_name))
+        for file_name in tf_record_output_filenames
+    ]
 
-  return tfrecords
+    return tfrecords

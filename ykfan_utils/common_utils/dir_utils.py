@@ -1,6 +1,7 @@
 import os
 import shutil
 
+
 def clear_dir(dir_path):
     if isinstance(dir_path, list):
         for dir_p in dir_path:

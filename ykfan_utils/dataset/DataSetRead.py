@@ -5,6 +5,7 @@ import cv2
 import dataset.dataset_util as dataset_util
 from common_utils.dir_utils import clear_dir
 
+
 class DataSetRead(object):
     def __init__(self):
         print('data set read init.')

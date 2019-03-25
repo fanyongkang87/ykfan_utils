@@ -2,6 +2,7 @@ import numpy as np
 import tensorflow as tf
 import matplotlib.pyplot as plt
 
+
 def distort_color(image, color_ordering=0):
     if color_ordering == 0:
         image = tf.image.random_brightness(image, max_delta=15. / 255.)
@@ -20,6 +21,7 @@ def distort_color(image, color_ordering=0):
         image = tf.image.random_brightness(image, max_delta=32. / 255.)
     return image
 
+
 def preprocess_for_train(image, height, width, bbox):
     if bbox is None:
         bbox = tf.constant([0.0, 0.0, 1.0, 1.0], dtype=tf.float32, shape=[1, 1, 4])
@@ -34,6 +36,7 @@ def preprocess_for_train(image, height, width, bbox):
     distort_image = distort_color(distort_image, np.random.randint(3))
 
     return distort_image
+
 
 if __name__ == '__main__':
     image_raw_data = tf.gfile.FastGFile('F:/PycharmProjects/tmp/data/a.jpg', 'rb').read()

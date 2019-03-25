@@ -5,13 +5,13 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="ykfan_utils",
-    version="0.0.1",
+    version="0.0.3",
     author="ykfan",
     author_email="fanyongkang87@qq.com",
     description="ykfan utils for deep learning",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/fanyongkang87/my_utils.git",
+    url="https://github.com/fanyongkang87/ykfan_utils.git",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",

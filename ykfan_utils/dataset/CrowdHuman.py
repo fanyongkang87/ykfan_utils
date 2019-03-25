@@ -43,6 +43,7 @@ def box_shoulder(hbox, vbox):
     shoulder_box = [hbox[0]-0.5*hbox_w, hbox[1], hbox[0]+1.5*hbox_w, hbox[1]+2.0*hbox_h]
     return box_pading(shoulder_box, vbox)
 
+
 def get_shoulder_boxes(annotation_val, image_width, image_height):
     gt_shouder_boxes = []
     for object_annotations in annotation_val['data']:
@@ -60,6 +61,7 @@ def get_shoulder_boxes(annotation_val, image_width, image_height):
         shoulder_box = box_shoulder(head_box, virt_box)
         gt_shouder_boxes.append(shoulder_box)
     return gt_shouder_boxes
+
 
 def read_annotations(annotation_type, limit_count = -1):
     if isinstance(annotation_type, list):
@@ -90,6 +92,7 @@ def read_annotations(annotation_type, limit_count = -1):
             break
     tf.logging.info('crowd human {} dataset, with size {}'.format(annotation_type, len(annotation_list)))
     return annotation_list
+
 
 def decode_annotation(annotation_val):
     full_path = os.path.join(annotation_val['img_dir'], annotation_val['file_name'])
@@ -222,6 +225,7 @@ def create_tf_example(annotation_val, verify_dict=None):
 
     example = tf.train.Example(features=tf.train.Features(feature=feature_dict))
     return key, example, num_annotations_skipped
+
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)

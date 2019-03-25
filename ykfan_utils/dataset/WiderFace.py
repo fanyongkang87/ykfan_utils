@@ -4,6 +4,7 @@ import hashlib
 import os
 from dataset.DataSetRead import DataSetRead
 
+
 class WiderFace(DataSetRead):
     def __init__(self):
         super(WiderFace, self).__init__()
@@ -34,7 +35,6 @@ class WiderFace(DataSetRead):
                 break
         tf.logging.info('wider face {} dataset, with size {}'.format(data_type, len(annotation_list)))
         return annotation_list
-
 
     def decode_annotation_val(self, annotation_val):
         full_path = os.path.join(annotation_val['img_dir'], annotation_val['file_name'])

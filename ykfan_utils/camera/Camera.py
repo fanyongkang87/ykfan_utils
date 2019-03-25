@@ -3,6 +3,7 @@ import logging
 
 image_wh = (1280, 720)
 
+
 def record(record_name):
     cap = cv2.VideoCapture(0)
     assert cap.isOpened(), 'Please open the mac camera!'
@@ -20,6 +21,7 @@ def record(record_name):
     out.release()
     cv2.destroyAllWindows()
 
+
 def show(show_name):
     cap = cv2.VideoCapture(show_name)
     assert cap.isOpened(), 'Please chebck {} exists!'.format(video_name)
@@ -36,6 +38,7 @@ def show(show_name):
             cv2.waitKey(0)
     cap.release()
     cv2.destroyAllWindows()
+
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO)
