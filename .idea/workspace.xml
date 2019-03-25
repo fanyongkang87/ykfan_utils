@@ -2,30 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6490b1a8-5f6f-4095-92ad-c32ee6513a74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/camera/Camera.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/camera/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common_utils/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common_utils/dir_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common_utils/time_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/CrowdHuman.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/DataSetRead.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/FDDB.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/WiderFace.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/dataset_util.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/res_show.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/nms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/preprocess.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/preprocess_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.sh" beforeDir="false" afterPath="$PROJECT_DIR$/package.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tflite/run_toco.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tflite/tflite_convert.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tflite/tflite_use.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,10 +16,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="90">
+              <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -67,8 +56,8 @@
         <option value="$PROJECT_DIR$/ykfan_utils/image/preprocess_test.py" />
         <option value="$PROJECT_DIR$/ykfan_utils/tflite/tflite_use.py" />
         <option value="$PROJECT_DIR$/ykfan_utils/tflite/tflite_convert.py" />
-        <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/package.sh" />
+        <option value="$PROJECT_DIR$/setup.py" />
       </list>
     </option>
   </component>
@@ -131,12 +120,12 @@
       <updated>1553503847464</updated>
       <workItem from="1553503848830" duration="1398000" />
       <workItem from="1553506386847" duration="635000" />
-      <workItem from="1553507315166" duration="1151000" />
+      <workItem from="1553507315166" duration="1844000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3184000" />
+    <option name="totallyTimeSpent" value="3877000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="0" width="1680" height="1050" extended-state="0" />
@@ -352,13 +341,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -369,8 +351,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="90">
+          <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
