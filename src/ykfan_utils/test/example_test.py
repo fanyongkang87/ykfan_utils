@@ -1,5 +1,5 @@
 from unittest import TestCase
-from ykfan_utils.common_utils.example import ex_add
+from src.ykfan_utils import ex_add
 
 
 class TestExample(TestCase):
