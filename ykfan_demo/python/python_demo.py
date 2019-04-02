@@ -30,7 +30,7 @@
 # jack.age = Person(13, 'lucy')
 # print jack.age
 
-# # test int float convert
+# # ykfan_demo int float convert
 # # 0.666666666667
 # # 0
 # # 0.666666666667
@@ -59,16 +59,16 @@
 
 # from __future__ import print_function
 # try:
-#     raise Exception('test')
+#     raise Exception('ykfan_demo')
 # except Exception as e_val:
 #     print('catch: {}'.format(e_val))
 #
 # print(2//3)
 
-import os
-
-for root, dirs, files in os.walk('/home/ykfan/code/head_pose/my_utils/test', topdown=False):
-    print('==============')
-    print(root)
-    print(dirs)
-    print(files)
+# import os
+#
+# for root, dirs, files in os.walk('/home/ykfan/code/head_pose/my_utils/ykfan_demo', topdown=False):
+#     print('==============')
+#     print(root)
+#     print(dirs)
+#     print(files)

@@ -2,10 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6490b1a8-5f6f-4095-92ad-c32ee6513a74" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ykfan_utils/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ykfan_utils/test/example_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ykfan_utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ykfan_utils.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.sh" beforeDir="false" afterPath="$PROJECT_DIR$/package.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ykfan_utils/common_utils/example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/eager_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/estimator_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/iris_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/jupyter_test.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/log/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/log/eval/events.out.tfevents.1547969650.bogon" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/log/events.out.tfevents.1547969649.bogon" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/log/graph.pbtxt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/log/model.ckpt-1560.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/log/model.ckpt-1560.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/log/model.ckpt-1560.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/log/model.ckpt-1680.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/log/model.ckpt-1680.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/log/model.ckpt-1680.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/log/model.ckpt-1800.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/log/model.ckpt-1800.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/log/model.ckpt-1800.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/log/model.ckpt-1920.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/log/model.ckpt-1920.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/log/model.ckpt-1920.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/log/model.ckpt-2000.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/log/model.ckpt-2000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/log/model.ckpt-2000.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/op_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/python_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ykfan_utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ykfan_utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ykfan_utils/image/preprocess_test.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,27 +44,30 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ykfan_utils$Nosetests_in_example_test_py.coverage" NAME="Nosetests in example_test.py Coverage Results" MODIFIED="1554190418885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ykfan_utils/common_utils" />
+    <SUITE FILE_PATH="coverage/ykfan_utils$Nosetests_in_example_py.coverage" NAME="Nosetests in example.py Coverage Results" MODIFIED="1554190193883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ykfan_utils/common_utils" />
+    <SUITE FILE_PATH="coverage/ykfan_utils$var_test.coverage" NAME="var_test Coverage Results" MODIFIED="1554174666399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/python" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+            <state relative-caret-position="330">
+              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,18 +87,35 @@
         <option value="$PROJECT_DIR$/ykfan_utils/dataset/WiderFace.py" />
         <option value="$PROJECT_DIR$/ykfan_utils/image/nms.py" />
         <option value="$PROJECT_DIR$/ykfan_utils/image/preprocess.py" />
-        <option value="$PROJECT_DIR$/ykfan_utils/image/preprocess_test.py" />
         <option value="$PROJECT_DIR$/ykfan_utils/tflite/tflite_use.py" />
         <option value="$PROJECT_DIR$/ykfan_utils/tflite/tflite_convert.py" />
+        <option value="$PROJECT_DIR$/ykfan_utils/common_utils/joke_add.py" />
+        <option value="$PROJECT_DIR$/test/python/var_test.py" />
+        <option value="$PROJECT_DIR$/test/python/python_test.py" />
+        <option value="$PROJECT_DIR$/test/eager_test.py" />
+        <option value="$PROJECT_DIR$/test/estimator_test.py" />
+        <option value="$PROJECT_DIR$/test/iris_data.py" />
+        <option value="$PROJECT_DIR$/test/op_test.py" />
+        <option value="$PROJECT_DIR$/ykfan_utils/image/preprocess_test.py" />
+        <option value="$PROJECT_DIR$/ykfan_utils/common_utils/example.py" />
+        <option value="$PROJECT_DIR$/ykfan_utils/common_utils/example_test.py" />
+        <option value="$PROJECT_DIR$/demo/tf/preprocess_demo.py" />
+        <option value="$PROJECT_DIR$/ykfan_utils/demo/python/python_demo.py" />
+        <option value="$PROJECT_DIR$/ykfan_utils/demo/tf/eager_demo.py" />
+        <option value="$PROJECT_DIR$/ykfan_utils/demo/tf/estimator_demo.py" />
+        <option value="$PROJECT_DIR$/ykfan_utils/demo/tf/iris_data.py" />
+        <option value="$PROJECT_DIR$/ykfan_utils/demo/tf/op_demo.py" />
+        <option value="$PROJECT_DIR$/ykfan_utils/__init__.py" />
         <option value="$PROJECT_DIR$/package.sh" />
         <option value="$PROJECT_DIR$/setup.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1440" />
-    <option name="width" value="1680" />
-    <option name="height" value="1050" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="1641" />
+    <option name="y" value="168" />
+    <option name="width" value="1387" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -92,9 +143,19 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/ykfan_utils/test" />
+      <recent name="$PROJECT_DIR$/ykfan_utils" />
+      <recent name="$PROJECT_DIR$/test/tf" />
+      <recent name="$PROJECT_DIR$/test/python" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -108,6 +169,69 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Python tests.Nosetests in example_test.py">
+    <configuration name="var_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ykfan_utils" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/python/var_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nosetests in example.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="ykfan_utils" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ykfan_utils/common_utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/ykfan_utils/common_utils/example.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nosetests in example_test.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="ykfan_utils" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ykfan_utils/common_utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/ykfan_utils/test/example_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Nosetests in example_test.py" />
+        <item itemvalue="Python tests.Nosetests in example.py" />
+        <item itemvalue="Python.var_test" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -120,30 +244,43 @@
       <updated>1553503847464</updated>
       <workItem from="1553503848830" duration="1398000" />
       <workItem from="1553506386847" duration="635000" />
-      <workItem from="1553507315166" duration="1844000" />
+      <workItem from="1553507315166" duration="2392000" />
+      <workItem from="1554174205038" duration="1405000" />
+      <workItem from="1554187661388" duration="5392000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Nosetests_in_example_py - 2019.04.02 at 15h 29m 54s.xml">
+      <configuration name="Nosetests in example.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_example_test_py - 2019.04.02 at 15h 31m 37s.xml">
+      <configuration name="Nosetests in example_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_example_test_py - 2019.04.02 at 15h 33m 39s.xml">
+      <configuration name="Nosetests in example_test.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3877000" />
+    <option name="totallyTimeSpent" value="11222000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17399268" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15201466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4012539" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="File Transfer" order="9" visible="true" weight="0.26123303" />
+      <window_info anchor="bottom" id="File Transfer" order="9" weight="0.24869384" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
@@ -151,7 +288,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.27045178" />
+      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.23076923" />
       <window_info anchor="right" id="SciView" order="4" />
       <window_info anchor="right" id="Database" order="5" />
     </layout>
@@ -160,40 +297,108 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/dataset/dataset_util.py" />
+    <entry file="file://$PROJECT_DIR$/camera/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/camera/Camera.py" />
+    <entry file="file://$PROJECT_DIR$/ykfan_utils/camera/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/dataset_util.py">
+    <entry file="file://$PROJECT_DIR$/ykfan_utils/tflite/run_toco.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ykfan_utils/image/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ykfan_utils/tflite/tflite_convert.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="556">
+          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/eager_test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/camera/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/camera/Camera.py">
+    <entry file="file://$USER_HOME$/anaconda2/envs/tf_1.12_3.6/lib/python3.6/site-packages/numpy/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        <state relative-caret-position="-2810">
+          <folding>
+            <element signature="e#3143#3207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ykfan_utils/dataset/FDDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-140">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ykfan_utils/camera/__init__.py">
+    <entry file="file://$PROJECT_DIR$/ykfan_utils/common_utils/time_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda2/envs/tf_1.12_3.6/lib/python3.6/site-packages/common_utils/time_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ykfan_utils/common_utils/joke_add.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ykfan_utils/common_utils/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda2/envs/tf_1.12_3.6/lib/python3.6/distutils/core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-137">
+          <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda2/envs/tf_1.12_3.6/lib/python3.6/site-packages/setuptools/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="141" column="4" selection-start-line="141" selection-start-column="4" selection-end-line="141" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/jupyter_test.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ykfan_utils/camera/Camera.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -215,29 +420,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ykfan_utils/common_utils/time_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ykfan_utils/dataset/CrowdHuman.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="228" selection-start-line="228" selection-end-line="228" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ykfan_utils/dataset/dataset_util.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1346">
+        <state relative-caret-position="1710">
           <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -245,22 +430,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ykfan_utils/dataset/DataSetRead.py">
+    <entry file="file://$PROJECT_DIR$/ykfan_utils/image/nms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="80" column="11" lean-forward="true" selection-start-line="80" selection-start-column="11" selection-end-line="80" selection-end-column="11" />
+        <state relative-caret-position="585">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ykfan_utils/image/preprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ykfan_utils/dataset/FDDB.py">
+    <entry file="file://$PROJECT_DIR$/ykfan_utils/tflite/tflite_use.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-331">
-          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ykfan_utils/dataset/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ykfan_utils/dataset/CrowdHuman.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -277,7 +482,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ykfan_utils/dataset/WiderFace.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-750">
+        <state relative-caret-position="540">
           <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
@@ -285,81 +490,143 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ykfan_utils/image/nms.py">
+    <entry file="file://$PROJECT_DIR$/ykfan_utils/dataset/DataSetRead.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ykfan_utils/image/preprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="1200">
+          <caret line="80" column="11" lean-forward="true" selection-start-line="80" selection-start-column="11" selection-end-line="80" selection-end-column="11" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ykfan_utils/image/preprocess_test.py">
+    <entry file="file://$PROJECT_DIR$/ykfan_demo/python/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ykfan_demo/python/python_demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="715">
+          <caret line="67" selection-start-line="67" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ykfan_demo/python/var_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ykfan_demo/tf/eager_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-start-column="2" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ykfan_demo/tf/estimator_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ykfan_demo/tf/iris_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="57" column="27" lean-forward="true" selection-start-column="2" selection-end-line="92" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ykfan_demo/tf/op_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="324" column="27" lean-forward="true" selection-start-column="2" selection-end-line="353" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ykfan_demo/tf/preprocess_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ykfan_utils/tflite/run_toco.sh">
+    <entry file="file://$PROJECT_DIR$/ykfan_utils/common_utils/example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ykfan_utils.egg-info/dependency_links.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ykfan_utils/tflite/tflite_use.py">
+    <entry file="file://$PROJECT_DIR$/ykfan_utils.egg-info/PKG-INFO">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ykfan_utils.egg-info/SOURCES.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ykfan_utils.egg-info/top_level.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ykfan_utils/test/example_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ykfan_utils/image/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$USER_HOME$/anaconda2/envs/tf_1.x_3.7/lib/python3.6/site-packages/setuptools/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="122" column="32" selection-start-line="122" selection-start-column="32" selection-end-line="122" selection-end-column="32" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ykfan_utils/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ykfan_utils/tflite/tflite_convert.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/ykfan_utils/ykfan_utils.egg-info/top_level.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/package.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        <state relative-caret-position="30">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ykfan_demo/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/lib/test/example_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="330">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
         </state>
       </provider>
     </entry>
