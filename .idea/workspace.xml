@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6490b1a8-5f6f-4095-92ad-c32ee6513a74" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.sh" beforeDir="false" afterPath="$PROJECT_DIR$/package.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ykfan_utils/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ykfan_utils/camera/Camera.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ykfan_utils/camera/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/MANIFEST.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ykfan_utils/common_utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ykfan_utils/common_utils/dir_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ykfan_utils/common_utils/example.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ykfan_utils/common_utils/time_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ykfan_utils/dataset/CrowdHuman.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ykfan_utils/dataset/DataSetRead.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ykfan_utils/dataset/FDDB.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ykfan_utils/dataset/WiderFace.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ykfan_utils/dataset/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ykfan_utils/dataset/dataset_util.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ykfan_utils/dataset/res_show.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ykfan_utils/image/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ykfan_utils/image/nms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ykfan_utils/image/preprocess.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ykfan_utils/test/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ykfan_utils/test/example_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ykfan_utils/tflite/run_toco.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ykfan_utils/tflite/tflite_convert.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ykfan_utils/tflite/tflite_use.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,25 +22,7 @@
         <entry file="file://$PROJECT_DIR$/package.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/setup.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MANIFEST.in">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="27" selection-start-column="27" selection-end-column="27" />
+              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -119,11 +76,11 @@
         <option value="$PROJECT_DIR$/src/ykfan_utils/__init__.py" />
         <option value="$PROJECT_DIR$/src/ykfan_utils/common_utils/data.txt" />
         <option value="$PROJECT_DIR$/src/ykfan_utils/common_utils/example.py" />
-        <option value="$PROJECT_DIR$/package.sh" />
         <option value="$PROJECT_DIR$/src/ykfan_utils/demo/example.py" />
         <option value="$PROJECT_DIR$/src.py" />
         <option value="$PROJECT_DIR$/MANIFEST.in" />
         <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/package.sh" />
       </list>
     </option>
   </component>
@@ -142,6 +99,11 @@
             <path>
               <item name="ykfan_utils" type="b2602c69:ProjectViewProjectNode" />
               <item name="ykfan_utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ykfan_utils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ykfan_utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -288,7 +250,7 @@
       <workItem from="1554194924226" duration="46000" />
       <workItem from="1554195571335" duration="570000" />
       <workItem from="1554196420446" duration="95000" />
-      <workItem from="1554199812879" duration="2913000" />
+      <workItem from="1554199812879" duration="3314000" />
     </task>
     <servers />
   </component>
@@ -304,7 +266,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15025000" />
+    <option name="totallyTimeSpent" value="15426000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -315,7 +277,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.40024784" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40024784" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -514,9 +476,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ykfan_utils/camera/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -534,16 +493,6 @@
         <state>
           <folding>
             <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ykfan_utils/common_utils/dir_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -623,6 +572,26 @@
     <entry file="file://$PROJECT_DIR$/src.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ykfan_utils/common_utils/dir_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MANIFEST.in">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -630,17 +599,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
         </state>
       </provider>
     </entry>
