@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="ykfan_utils",
-    version="0.0.16",
+    version="0.0.17",
     author="ykfan",
     author_email="fanyongkang87@qq.com",
     description="ykfan utils for deep learning",
@@ -16,7 +16,7 @@ setuptools.setup(
     packages=setuptools.find_packages('src', exclude=('test', 'demo')),
     classifiers=[
         "Programming Language :: Python :: 2.7",
-        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
